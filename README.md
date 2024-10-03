@@ -10,6 +10,7 @@ Muhammad Shaharyar Sarwar: Responsible for program efficiency
 
 Yuijuhn Ting: Responsible for page design and integrating all functions into the map screen display
 
+----
 
 ### How to run
 
