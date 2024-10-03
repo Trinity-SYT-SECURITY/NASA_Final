@@ -22,6 +22,8 @@
 
 **5. Kaggle:** https://www.kaggle.com/code/andrewmahandrew/temperature-map/notebook
 
+**6. Population:**  https://github.com/datasets/population/blob/main/data/population.csv
+
 ### NASA Dataset
 
 https://github.com/IvyQwinn/GlobalTemperatureAnalysis/tree/main
