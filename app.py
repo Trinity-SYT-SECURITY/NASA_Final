@@ -10,7 +10,7 @@ from geopy.exc import GeocoderTimedOut, GeocoderUnavailable
 from folium.plugins import DualMap  
 import plotly.express as px
 import json
-# import os
+import os
 from streamlit_lottie import st_lottie
 from frontend import my_component
 import climate
@@ -21,7 +21,7 @@ global_population = globalpop
 st.set_page_config(page_title="Climate Change Dashboard", layout="wide")
 
 # Configure Google Generative AI
-api_key = 'AIzaSyBql7HOXfk9S9k6p3U8kD5K4uAS7AAN8gM'  # Replace with your actual API key
+api_key = os.getenv("GENAI_API_KEY")
 genai.configure(api_key=api_key)
 
 
