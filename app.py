@@ -64,7 +64,7 @@ if "oco2_comparison" not in st.session_state:
     st.session_state.oco2_comparison = None
 
 # Configure Google Generative AI
-api_key = 'AIzaSyAD86BMs-X7nmvsQ0eh8hsuv_I1ai60-0c'  # Replace with your actual API key
+api_key = 'XXXXXXXXXX'  # Replace with your actual API key
 genai.configure(api_key=api_key)
 
 landing()
